@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Starting The Browser]]>
+    </line>
+    <line>
+      <![CDATA[launching chrome browser]]>
+    </line>
+    <line>
+      <![CDATA[Opening the Appdirect HomePage]]>
+    </line>
+    <line>
+      <![CDATA[Button Exist]]>
+    </line>
+    <line>
+      <![CDATA[Closing the App]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26308" started-at="2017-04-13T05:48:56Z" finished-at="2017-04-13T05:49:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26308" started-at="2017-04-13T05:48:56Z" finished-at="2017-04-13T05:49:22Z">
+      <class name="com.appdirect.autotechchallenge.AppdirectTest">
+        <test-method status="PASS" signature="loadDriver()[pri:0, instance:com.appdirect.autotechchallenge.AppdirectTest@6e6c3152]" name="loadDriver" is-config="true" duration-ms="1469" started-at="2017-04-13T11:18:56Z" finished-at="2017-04-13T11:18:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting The Browser]]>
+            </line>
+            <line>
+              <![CDATA[launching chrome browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loadDriver -->
+        <test-method status="PASS" signature="homePageTest()[pri:0, instance:com.appdirect.autotechchallenge.AppdirectTest@6e6c3152]" name="homePageTest" duration-ms="12589" started-at="2017-04-13T11:18:57Z" finished-at="2017-04-13T11:19:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening the Appdirect HomePage]]>
+            </line>
+            <line>
+              <![CDATA[Button Exist]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method status="PASS" signature="loginPageTest()[pri:0, instance:com.appdirect.autotechchallenge.AppdirectTest@6e6c3152]" name="loginPageTest" duration-ms="7483" started-at="2017-04-13T11:19:10Z" depends-on-methods="com.appdirect.autotechchallenge.AppdirectTest.homePageTest" finished-at="2017-04-13T11:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="signUpPageTest()[pri:0, instance:com.appdirect.autotechchallenge.AppdirectTest@6e6c3152]" name="signUpPageTest" duration-ms="282" started-at="2017-04-13T11:19:17Z" depends-on-methods="com.appdirect.autotechchallenge.AppdirectTest.loginPageTest" finished-at="2017-04-13T11:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpPageTest -->
+        <test-method status="PASS" signature="CheckIfSuccessFulOrNot()[pri:0, instance:com.appdirect.autotechchallenge.AppdirectTest@6e6c3152]" name="CheckIfSuccessFulOrNot" duration-ms="4467" started-at="2017-04-13T11:19:18Z" depends-on-methods="com.appdirect.autotechchallenge.AppdirectTest.signUpPageTest" finished-at="2017-04-13T11:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckIfSuccessFulOrNot -->
+        <test-method status="PASS" signature="destroyDriver()[pri:0, instance:com.appdirect.autotechchallenge.AppdirectTest@6e6c3152]" name="destroyDriver" is-config="true" duration-ms="0" started-at="2017-04-13T11:19:22Z" finished-at="2017-04-13T11:19:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing the App]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- destroyDriver -->
+      </class> <!-- com.appdirect.autotechchallenge.AppdirectTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
